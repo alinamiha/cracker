@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding-inline-start: 0;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .header_container {
+    width: 960px;
+    position: relative;
+}
+.header_row{
+    display: flex;
+    align-items: center;
+}
+.header_row.header_row_first {
+    height: 60px;
+    background-color: rgb(51, 51, 51);
+}
+
+.header_row.header_row_second {
+    height: 120px;
+    opacity: 0.561;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+    background-color: rgb(51, 51, 51);
+}
+.header_logo{
+    position: absolute;
+    top: 12px;
+    z-index: 1;
+}
+.logo a {
+    font-size: 60px;
+    font-family: "Kristi";
+    color: rgb(247, 247, 247);
+    line-height: 1.016;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header_order_details{
+    float: right;
+}
+.header_order_details .header_order_details_menu .header_order_details_item {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.571;
+    text-align: center;
+    margin-right: 50px;
+    position: relative;
+}
+.header_order_details .header_order_details_menu .header_order_details_item:last-child{
+    margin-right: 0;
+}
+.header_order_details .header_order_details_menu .header_order_details_item.header_order_details_item_dropdown_link::after{
+    content: url("/src/img/arrow.png");
+    margin-left: 15px;
+}
+.header_order_details .header_order_details_menu .header_order_details_item.header_order_details_item_semen img{
+    height: 30px;
+}
+.header_order_details .header_order_details_menu .header_order_details_item.header_order_details_item_semen::after {
+    content: " ";
+    border-radius: 50%;
+    background-color: rgb(255, 66, 0);
+    position: absolute;
+    top: -14px;
+    left: 17px;
+    width: 20px;
+    height: 20px;
+}
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+.header_menu .header_menu_item a{
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: 'Lato';
+    color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    line-height: 3.387;
+    text-align: center;
+    padding: 0 30px 15px 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header_menu .header_menu_item:last-child{
+    margin-right: 0;
+}
+.header_menu .header_menu_item .header_menu_item_link:hover{
+    border-bottom: 4px solid rgb(255, 66, 0);
+}

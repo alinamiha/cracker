@@ -1,0 +1,197 @@
+.first_section {
+    height: 920px;
+    display: flex;
+}
+
+.first_section.first_section_bcg {
+    background-image: url("/src/img/section_1.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.first_section .first_section_block_content {
+    position: relative;
+    height: 100%;
+    max-width: 870px;
+    width: 100%;
+}
+
+.first_section .first_section_block_title {
+    position: relative;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+
+.first_section .first_section_wrapper {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.first_section .first_section_wrapper .first_section_container {
+    display: flex;
+    position: relative;
+    height: 360px;
+    /*bottom: 280px;*/
+    width: 100%;
+}
+
+.first_section .first_section_block_title h2 {
+    font-size: 48px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: left;
+    border-left: 1px solid #ffffff;
+    padding-left: 20px;
+    width: 440px;
+}
+
+.first_section .first_section_block_bcg {
+    max-width: 870px;
+    width: 100%;
+    background-color: rgb(131, 170, 117);
+    opacity: 0.871;
+    height: 360px;
+    /*position: absolute;*/
+    /*bottom: 280px;*/
+}
+
+.first_section .first_section_block_bcg .first_section_block_content_text {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    max-width: 310px;
+    width: 100%;
+    float: right;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+.first_section .first_section_block_bcg .first_section_block_content_text p {
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.556;
+    text-align: right;
+}
+
+.first_section_row{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 360px;
+    bottom: 280px;
+    width: 100%;
+}
+
+.first_section_second_item {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 320px;
+}
+
+.first_section_second_item_btn {
+    background-color: rgb(255, 66, 0);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12), 0px 6px 6px 0px rgba(0, 0, 0, 0.24);
+    width: 260px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.first_section_second_item_btn span {
+    font-size: 36px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.111;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.second_section{
+    height: 100%;
+    position: relative;
+}
+.section_wrap .section_wrap_bcg{
+    background-image: url("/src/img/section_2.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.second_section .second_section_title h2 {
+    font-size: 48px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.Cracker {
+    font-size: 72px;
+    font-family: "Kristi";
+    color: rgb(51, 51, 51);
+    line-height: 0.847;
+    text-align: center;
+    position: absolute;
+    left: 1269.938px;
+    top: 1424.508px;
+    z-index: 181;
+}
+
+._Lorem_ipsum_dolor_sit_amet__consectetur_adipis {
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+    line-height: 1.556;
+    text-align: justifyLeft;
+    position: absolute;
+    left: 730.451px;
+    top: 1166.058px;
+    width: 620px;
+    height: 240px;
+    z-index: 179;
+}
+
+.Прямоугольник_8 {
+    background-color: rgb(215, 191, 191);
+    opacity: 0.741;
+    position: absolute;
+    left: 650px;
+    top: 1100px;
+    width: 1270px;
+    height: 360px;
+    z-index: 178;
+}
+
+.Слой_2 {
+    background-image: url("Слой 2.png");
+    opacity: 0.871;
+    position: absolute;
+    left: 400px;
+    top: 1000px;
+    width: 470px;
+    height: 380px;
+    z-index: 177;
+}
+
+.Эллипс_5 {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 490px;
+    top: 1000px;
+    width: 380px;
+    height: 380px;
+    z-index: 176;
+}
