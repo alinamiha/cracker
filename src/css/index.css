@@ -1,3 +1,6 @@
+.overflow{
+    overflow: hidden;
+}
 .first_section {
     height: 920px;
     display: flex;
@@ -53,11 +56,15 @@
 }
 
 .first_section .first_section_block_bcg {
-    max-width: 870px;
-    width: 100%;
+    /*max-width: 870px;*/
+    /*width: 100%;*/
     background-color: rgb(131, 170, 117);
     opacity: 0.871;
     height: 360px;
+    width: 100vw;
+    position: absolute;
+    right: 0;
+
     /*position: absolute;*/
     /*bottom: 280px;*/
 }
@@ -82,7 +89,7 @@
     text-align: right;
 }
 
-.first_section_row{
+.first_section_column{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -121,12 +128,30 @@
     height: 100%;
     position: relative;
 }
+.second_section_wrap{
+    display: flex;
+}
 .section_wrap .section_wrap_bcg{
     background-image: url("/src/img/section_2.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     position: relative;
+}
+.second_section .second_section_title{
+    padding-top: 80px;
+}
+.second_section_content_bcg{
+    background-color: rgb(215, 191, 191);
+    opacity: 0.741;
+    height: 360px;
+    width: 100vw;
+}
+.second_section_content_text{
+    position: relative;
+    padding: 30px 0 0 80px;
+    max-width: 620px;
+    width: 100%;
 }
 .second_section .second_section_title h2 {
     font-size: 48px;
@@ -136,7 +161,19 @@
     line-height: 1.25;
     text-align: center;
 }
+.section_wrap_shadow{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.87;
+}
 
+.About_cracker {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3060px;
+    z-index: 182;
+}
 .Cracker {
     font-size: 72px;
     font-family: "Kristi";
@@ -148,7 +185,18 @@
     top: 1424.508px;
     z-index: 181;
 }
-
+.About_Cracker {
+    font-size: 48px;
+    font-family: "FredokaOne";
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: right;
+    position: absolute;
+    left: 904.937px;
+    top: 988.5px;
+    z-index: 180;
+}
 ._Lorem_ipsum_dolor_sit_amet__consectetur_adipis {
     font-size: 18px;
     font-family: "Lato";
@@ -163,17 +211,6 @@
     z-index: 179;
 }
 
-.Прямоугольник_8 {
-    background-color: rgb(215, 191, 191);
-    opacity: 0.741;
-    position: absolute;
-    left: 650px;
-    top: 1100px;
-    width: 1270px;
-    height: 360px;
-    z-index: 178;
-}
-
 .Слой_2 {
     background-image: url("Слой 2.png");
     opacity: 0.871;
@@ -184,7 +221,6 @@
     height: 380px;
     z-index: 177;
 }
-
 .Эллипс_5 {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
