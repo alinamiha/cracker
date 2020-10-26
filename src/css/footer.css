@@ -1,6 +1,6 @@
 footer{
     position: relative;
-    padding-top: 50px;
+    padding-top: 45px;
 }
 .footer-container{
     z-index: 10;
@@ -9,7 +9,7 @@ footer{
     justify-content: space-between;
 }
 .footer-bcg{
-    background-image: url("/src/img/footer_background.png");
+    background-image: url("/home/alina/Projects/cracker/src/img/footer_background.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -19,7 +19,9 @@ footer{
     width: 100%;
     height: 780px;
 }
-
+.footer-block{
+    width: 320px;
+}
 .footer-block h5{
     font-size: 16px;
     font-family: 'Fredoka One', cursive;
@@ -42,6 +44,8 @@ footer{
 
 .footer-block span{
     padding-left: 50px;
+    align-items: center;
+    display: flex;
 }
 .footer-block ul{
     padding-left: 50px;
