@@ -20,7 +20,7 @@ footer{
     height: 780px;
 }
 .footer-block{
-    width: 320px;
+    width: 300px;
 }
 .footer-block h5{
     font-size: 16px;
@@ -40,12 +40,12 @@ footer{
     font-family: "Lato";
     color: rgb(255, 255, 255);
     line-height: 1.786;
-}
-
-.footer-block span{
-    padding-left: 50px;
     align-items: center;
     display: flex;
+}
+
+.footer-block>span{
+    padding-left: 50px;
 }
 .footer-block ul{
     padding-left: 50px;
