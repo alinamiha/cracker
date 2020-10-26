@@ -9,7 +9,7 @@ footer{
     justify-content: space-between;
 }
 .footer-bcg{
-    background-image: url("/home/alina/Projects/Cracker/src/img/footer_background.png");
+    background-image: url("/src/img/footer_background.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;

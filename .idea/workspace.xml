@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b376c8c2-78df-4bb0-8411-e1a53d8021c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,38 +18,6 @@
         <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>header_order_details</find>
-      <find>header_order_details_item_dropdown_link</find>
-      <find>header_order_details_item</find>
-      <find>seme</find>
-      <find>text-de</find>
-      <find>al</find>
-      <find>amet</find>
-      <find>vova</find>
-      <find>first_section_second_item</find>
-      <find>.first_section .first_section_block_title h2</find>
-      <find>.first_section .first_section_block_bcg .first_section_block_content_text p</find>
-      <find>alina</find>
-      <find>first_section_wrap</find>
-      <find>wrap</find>
-      <find>first_section_row</find>
-      <find>.second_section .second_section_title h2</find>
-      <find>second_section_content</find>
-      <find>second_section_content_column</find>
-      <find>second_section_content_block</find>
-      <find>second_section_content_block_text</find>
-      <find>second_section_wrapper</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>first_section_wrapper</replace>
-      <replace>second_section_content</replace>
-      <replace>first_section_column</replace>
-      <replace>second_section_wrap</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +50,7 @@
       <updated>1603307095108</updated>
       <workItem from="1603307096420" duration="24437000" />
       <workItem from="1603719058099" duration="69000" />
-      <workItem from="1603719177248" duration="36000" />
+      <workItem from="1603719177248" duration="402000" />
     </task>
     <servers />
   </component>
