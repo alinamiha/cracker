@@ -15,6 +15,7 @@
 .header .header_container {
     width: 960px;
     position: relative;
+    padding: 20px 0;
 }
 .header_row{
     display: flex;
@@ -33,8 +34,9 @@
 }
 .header_logo{
     position: absolute;
-    top: 12px;
+    top: 30px;
     z-index: 1;
+    margin-left: 10px;
 }
 .logo a {
     font-size: 60px;
@@ -55,35 +57,47 @@
     font-weight: bold;
     text-transform: uppercase;
     line-height: 2.571;
-    text-align: center;
-    margin-right: 50px;
     position: relative;
 }
-.header_order_details .header_order_details_menu .header_order_details_item:last-child{
-    margin-right: 0;
+.header_order_details_item:nth-child(1){
+    margin-right: 85px;
 }
-.header_order_details .header_order_details_menu .header_order_details_item.header_order_details_item_dropdown_link::after{
-    content: url("/src/img/arrow.png");
+.header_order_details_item:nth-child(2){
+    margin-right: 50px;
+    word-spacing: 40px;
+}
+.header_order_details_item:nth-child(3){
+    margin-right: 40px;
+}
+
+.header_order_details_item_dropdown_link small{
+    content: url("/home/alina/Projects/Cracker/src/img/arrow.png");
+    transform: rotate(-90deg);
+    transition: 0.3s;
     margin-left: 15px;
 }
-.header_order_details .header_order_details_menu .header_order_details_item.header_order_details_item_semen img{
-    height: 30px;
+.header_order_details_item_semen img{
+    height: 23px;
+    width: 23px;
 }
-.header_order_details .header_order_details_menu .header_order_details_item.header_order_details_item_semen::after {
-    content: " ";
+.header_order_details_item_semen small {
+    line-height: 1.6;
+    text-align: center;
     border-radius: 50%;
     background-color: rgb(255, 66, 0);
     position: absolute;
-    top: -14px;
-    left: 17px;
-    width: 20px;
-    height: 20px;
+    top: -13px;
+    left: 15px;
+    width: 18px;
+    height: 18px;
 }
 .header_menu{
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: flex-end;
+    margin-right: -20px;
+    margin-bottom: 0;
 }
 .header_menu .header_menu_item a{
     margin-right: 30px;
@@ -93,7 +107,7 @@
     text-transform: uppercase;
     line-height: 3.387;
     text-align: center;
-    padding: 0 30px 15px 30px;
+    padding: 0 25px 15px 25px;
     font-weight: 600;
     text-decoration: none;
 }
@@ -103,3 +117,98 @@
 .header_menu .header_menu_item .header_menu_item_link:hover{
     border-bottom: 4px solid rgb(255, 66, 0);
 }
+.details-drop-down-list-container{
+    max-width: 620px;
+    width: 1005px;
+    margin: 20px auto;
+    position: relative;
+}
+.details-drop-down-list{
+    position: absolute;
+    z-index: 10;
+    top: calc(100% - 8px);
+    display: none;
+    max-width: 780px;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.22),0px 24px 24px 0px rgba(0, 0, 0, 0.3);
+}
+
+.details-drop-down-list svg{
+    width: 35px;
+    height: 35px;
+}
+.details-drop-down-list table{
+    width: 100%;
+    padding: 0 15px;
+}
+.details-drop-down-list table td{
+    border-bottom: 1px solid #c3c3c3;
+}
+.details-drop-down-list table td:first-child, .details-drop-down-list table td:last-child{
+    border-bottom: none;
+}
+.details-checkout{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: -15px;
+    margin-top: 25px;
+}
+.details-checkout button{
+    border-radius: 30px;
+    background-color: rgb(255, 66, 0);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12), 0px 6px 6px 0px rgba(0, 0, 0, 0.24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 19.355px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.067;
+    text-align: center;
+    width: 140px;
+    height: 42px;
+    padding: 0;
+    cursor: pointer;
+}
+.details-checkout span{
+    font-size: 19.355px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.86;
+    text-align: center;
+    margin-right: 45px;
+}
+.detailes-percent{
+    color: #ff4200;
+}
+.delete-item{
+    border-radius: 50%;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+.delete-item svg{
+    width: 10px;
+    height: 10px;
+}
+.drop-down-list-close button{
+    border: none;
+    position: absolute;
+    right: -44px;
+}
+.drop-down-list-close button svg{
+    width: 21px;
+    height: 21px;
+}
+.header_order_details_item_dropdown_link small.active-detailes{
+    transform: rotate(0deg);
+}
+

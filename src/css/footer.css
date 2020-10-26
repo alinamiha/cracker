@@ -1,0 +1,74 @@
+footer{
+    position: relative;
+    padding-top: 50px;
+}
+.footer-container{
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bcg{
+    background-image: url("/home/alina/Projects/Cracker/src/img/footer_background.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 780px;
+}
+
+.footer-block h5{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 3.81;
+}
+.footer-block h5 svg{
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    margin-right: 20px;
+}
+.footer-block span{
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.786;
+}
+
+.footer-block span{
+    padding-left: 50px;
+}
+.footer-block ul{
+    padding-left: 50px;
+}
+.footer-block ul li{
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.786;
+    margin-bottom: 20px;
+}
+.footer-share-icon{
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-right: 15px;
+}
+.footer-share-icon svg{
+    height: 30px;
+    fill: #ffffff;
+}
+
+

@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cracker</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/footer.css">
 </head>
 <body>
 <header class="header">
@@ -19,12 +21,70 @@
                 <div class="header_order_details">
                     <div class="header_order_details_menu">
                         <span class="header_order_details_item header_order_details_item_semen">
-                           <img src="src/img/semen.png" alt="">
+                           <img src="/home/alina/Projects/Cracker/src/img/semen.png" alt="">
+                            <small></small>
                         </span>
                         <span class="header_order_details_item">Total 143€</span>
-                        <span class="header_order_details_item header_order_details_item_dropdown_link">Details</span>                        </span>
+                        <span class="header_order_details_item header_order_details_item_dropdown_link">Details <small></small></span>
                     </div>
-                    <div class="header_order_details_dropdown_block"></div>
+                    <div class="details-drop-down-list">
+                        <div class="details-drop-down-list-container">
+                            <div class="drop-down-list-close">
+                                <button>
+                                    <svg id="close">
+                                        <use xlink:href="/src/svg/crecker.svg#close"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <table>
+                                <tbody class="details-body">
+                                <tr>
+                                    <th></th>
+                                    <th>
+                                        <svg id="soy-bean">
+                                            <use xlink:href="/src/svg/crecker.svg#soy-bean"/>
+                                        </svg>
+                                    </th>
+                                    <th>
+                                        <svg id="sesame">
+                                            <use xlink:href="/src/svg/crecker.svg#sesame"/>
+                                        </svg>
+                                    </th>
+                                    <th>
+                                        <svg id="wheat">
+                                            <use xlink:href="/src/svg/crecker.svg#wheat"/>
+                                        </svg>
+                                    </th>
+                                    <th>
+                                        <svg id="corn">
+                                            <use xlink:href="/src/svg/crecker.svg#corn"/>
+                                        </svg>
+                                    </th>
+                                </tr>
+                                <tr class="details-item">
+                                    <td><img src="/home/alina/Projects/Cracker/src/img/semen-black.png" alt="semen"></td>
+                                    <td class="detailes-percent">4%</td>
+                                    <td class="detailes-percent">5%</td>
+                                    <td class="detailes-percent">12%</td>
+                                    <td class="detailes-percent">13%</td>
+                                    <td style="text-align: end">1.50kg</td>
+                                    <td style="text-align: end">81.50€</td>
+                                    <td class="d-flex justify-content-end">
+                                        <button class="delete-item">
+                                            <svg>
+                                                <use xlink:href="/src/svg/crecker.svg#close"/>
+                                            </svg>
+                                        </button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div class="details-checkout">
+                                <span>total: €</span>
+                                <button>checkout</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,76 +102,187 @@
     </div>
 </header>
 <div class="content">
-    <section class="first_section first_section_bcg overflow">
-        <div class="first_section_wrapper container">
-            <div class="first_section_column">
-                <div class="first_section_container">
-                    <div class="first_section_block_content">
-                        <div class="first_section_block_bcg">
-                            <div class="first_section_block_content_text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore
-                                    et dolore magna aliqua.
-                                    Lorem ipsum dolor sit amet.</p>
+    <section class="first_section overflow">
+        <div class="first_section_bcg">
+            <div class="first_section_container container">
+                <div class="first_section_wrapper">
+                    <div class="hero-content">
+                        <h1>mostly tastes with freshes</h1>
+                        <div class="hero_content_button">
+                            <button>Taste it</button>
+                        </div>
+                    </div>
+                    <div class="flow_block">
+                        <div class="flow_block_wrap">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aut eligendi ipsum
+                                nam officiis quia quibusdam ratione? Adipisci doloremque in nesciunt quidem vitae. Atque
+                                debitis delectus laborum nulla tempore voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-about-constructor ">
+        <div class="cracker-bcg"></div>
+        <div class="about-cracker-wrapper overflow">
+            <div class="about-cracker">
+                <div class="container cracker-section-container">
+                    <h2>about cracker</h2>
+                    <div class="about-cracker-content">
+                        <img src="/home/alina/Projects/Cracker/src/img/crecker.png" alt="">
+                        <div class="flow-block about-cracker-flow-block">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, tempore temporibus.
+                                Commodi
+                                dignissimos dolorum earum eos esse est expedita fugiat inventore laborum magnam natus
+                                pariatur
+                                perferendis, perspiciatis placeat possimus quam quis, reprehenderit saepe, sapiente
+                                suscipit
+                                tempora totam unde vero! Aut debitis, ipsa iste iusto qui quidem reprehenderit tenetur.
+                                Ab
+                                aliquam aliquid at atque autem commodi, consequatur cupiditate delectus doloremque
+                                dolores,
+                                eius
+                                ipsum itaque laboriosam nihil odio odit optio pariatur possimus quae recusandae
+                                similique
+                                suscipit tempore ullam vel veniam? Aliquid amet at commodi corporis deserunt dicta
+                                dolore
+                                dolorem doloremque dolores doloribus ea eos esse eum fuga in iste itaque labore
+                                laudantium.</p>
+                            <div class="crecker-sign">
+                                <span>Cracker</span>
                             </div>
                         </div>
                     </div>
-                    <div class="first_section_block_title">
-                        <h2>mostly tastes with freshes</h2>
-                    </div>
+
                 </div>
-                <div class="first_section_second_item">
-                    <div class="first_section_second_item_btn">
-                        <span>taste it</span>
+            </div>
+        </div>
+        <div class="cracker-constructor">
+            <div class="container cracker-section-container">
+
+                <h2>cracker constructor</h2>
+                <div class="cracker-constructor-form">
+                    <div class="current-value">
+                        <p>current value: <span>143</span>€</p>
+                    </div>
+                    <div class="form-block">
+                        <svg id="soy-bean">
+                            <use xlink:href="/src/svg/crecker.svg#soy-bean"/>
+                        </svg>
+                        <input type="range" name="input_1" min="0" max="100" value="0" class="range input-range">
+                        <p class="percent"><span>0</span>%</p>
+                    </div>
+                    <div class="form-block">
+                        <svg id="sesame">
+                            <use xlink:href="/src/svg/crecker.svg#sesame"/>
+                        </svg>
+                        <input type="range" name="input_2" min="0" max="100" value="0" class="range input-range">
+                        <p class="percent"><span>0</span>%</p>
+                    </div>
+                    <div class="form-block">
+                        <svg id="wheat">
+                            <use xlink:href="/src/svg/crecker.svg#wheat"/>
+                        </svg>
+                        <input type="range" name="input_3" min="0" max="100" value="0" class="range input-range">
+                        <p class="percent"><span>0</span>%</p>
+                    </div>
+                    <div class="form-block">
+                        <svg id="corn">
+                            <use xlink:href="/src/svg/crecker.svg#corn"/>
+                        </svg>
+                        <input type="range" name="input_4" min="0" max="100" value="100" class="range input-range">
+                        <p class="percent"><span>100</span>%</p>
+                    </div>
+                    <div class="form-block package-size-picker-block">
+                        <svg>
+                            <use xlink:href="/src/svg/crecker.svg#package"/>
+                        </svg>
+                        <div class="package-size-picker">
+                            <button data-size="0" id="package-size-btn"><span>choose your package</span>
+                                <svg>
+                                    <use xlink:href="/src/svg/crecker.svg#arrow"/>
+                                </svg>
+                            </button>
+                            <ul class="package-size-picker-list">
+                                <li data-size="3" >large package</li>
+                                <li data-size="2" >medium package</li>
+                                <li data-size="1" >small package</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-block add-to-cart-block overflow">
+                        <div class="add-to-cart-container">
+                            <button id="add-to-cart-btn-hover">
+                                <svg>
+                                    <use xlink:href="/src/svg/crecker.svg#plus"/>
+                                </svg>
+                            </button>
+                            <button id="add-to-cart-btn">Add to cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <div class="section_wrap overflow">
-        <div class="section_wrap_bcg">
-            <div class="section_wrap_shadow">
-                <section class="second_section container">
-                    <div class="second_section_title">
-                        <h2>about cracker</h2>
+</div>
+<footer id="footer">
+    <div class="footer-bcg"></div>
+    <div class="footer-container container">
+        <div class="footer-block">
+            <h5>
+                <svg>
+                    <use xlink:href="/src/svg/crecker.svg#phone"/>
+                </svg>
+                phone
+            </h5>
+            <span>+43 ( 987 ) 345 - 6782</span>
+        </div>
+        <div class="footer-block">
+            <h5>
+                <svg>
+                    <use xlink:href="/src/svg/crecker.svg#pin"/>
+                </svg>
+                address
+            </h5>
+            <span style="    max-width: 190px;display: block;">Cracker Inc.  10 Cloverfield Lane Berlin, IL 10928 Germany</span>
+        </div>
+        <div class="footer-block">
+            <h5>
+                <svg>
+                    <use xlink:href="/src/svg/crecker.svg#share"/>
+                </svg>
+                share us
+            </h5>
+            <ul>
+                <li>
+                    <div class="footer-share-icon">
+                        <svg style="width: 23px;">
+                            <use xlink:href="/src/svg/crecker.svg#pinterest"/>
+                        </svg>
                     </div>
-                    <div class="second_section_wrap">
-                            <div class="second_section_img">
-                                <img src="/src/img/crecker.png" alt="">
-                            </div>
-                            <div class="second_section_content">
-                                <div class="second_section_content_bcg">
-                                    <div class="second_section_content_text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in
-                                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                            pariatur. Excepteur sint occaecat, sunt in culpa qui officia deserunt mollit
-                                            anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-                                            voluptatem accusantium doloremque laudantium, architecto beatae vitae dicta
-                                            sunt explicabo. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                                            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-                                            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="second_section_content_block_logo">
-                                    <p>Cracker</p>
-                                </div>
-                            </div>
+                    <span>https://www.pinterest.com/</span>
+                </li>
+                <li>
+                    <div class="footer-share-icon">
+                        <svg style="width: 16px;">
+                            <use xlink:href="/src/svg/crecker.svg#facebook"/>
+                        </svg>
                     </div>
-                </section>
-            </div>
+                    <span>https://www.facebook.com/</span>
+                </li>
+                <li>
+                    <div class="footer-share-icon">
+                        <svg style="width: 29px;">
+                            <use xlink:href="/src/svg/crecker.svg#google-plus"/>
+                        </svg>
+                    </div>
+                    <span>https://www.google.com/</span>
+                </li>
+            </ul>
         </div>
     </div>
-</div>
-<input class="range" type="range" min="0" max="100">
-<script>
-    'use strict'
-    let range = document.getElementsByClassName("range")
-    console.log("Alina" + range)
-</script>
+</footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -121,5 +292,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script src="/home/alina/Projects/Cracker/src/js/index.js"></script>
 </body>
 </html>
