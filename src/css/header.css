@@ -204,6 +204,7 @@
     border: none;
     position: absolute;
     right: -44px;
+    cursor: pointer;
 }
 .drop-down-list-close button svg{
     width: 21px;
