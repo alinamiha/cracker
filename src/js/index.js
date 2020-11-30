@@ -144,3 +144,7 @@ $(function () {
     $('.header_order_details_item_semen small').text($('.details-item').length)
 })
 
+$(".burger-menu").on('click', function () {
+    $(this).toggleClass('active-burger')
+    $('.header_menu').toggleClass('mobile-header-visible')
+})
