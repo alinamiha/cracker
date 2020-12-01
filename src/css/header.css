@@ -72,7 +72,7 @@
 }
 
 .header_order_details_item_dropdown_link small{
-    content: url("/src/img/arrow.png");
+    content: url("../../src/img/arrow.png");
     transform: rotate(-90deg);
     transition: 0.3s;
     margin-left: 15px;
