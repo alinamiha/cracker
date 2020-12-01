@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b376c8c2-78df-4bb0-8411-e1a53d8021c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cracker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +44,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/klarna/kco_rest" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/cardinity/cardinity-sdk-php" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/braintree/braintree_php" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/zoujingli/wechat-php-sdk" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/guzzlehttp/ringphp" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/divido/divido-php" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/guzzlehttp/log-subscriber" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/guzzlehttp/oauth-subscriber" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/guzzlehttp/streams" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/scssphp/scssphp" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/composer" />
+      <path value="$PROJECT_DIR$/upload/system/storage/vendor/twig/twig" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1jPwVJ3tvsE7PubthmIYO1rCadA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -28,6 +75,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -49,13 +98,22 @@
       <workItem from="1603307096420" duration="24437000" />
       <workItem from="1603719058099" duration="69000" />
       <workItem from="1603719177248" duration="7602000" />
+      <workItem from="1606780888893" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
