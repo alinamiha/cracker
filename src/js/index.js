@@ -114,7 +114,7 @@ $('#add-to-cart-btn').click(function (){
 function addToDetailes(package_item){
     let package_html = `
      <tr class="details-item">
-        <td><img src="src/img/semen-black.png" alt="semen"></td>
+        <td><img src="/src/img/semen-black.png" alt="semen"></td>
         <td class="detailes-percent">` + package_item.input_1 + `%</td>
         <td class="detailes-percent">` + package_item.input_2 + `%</td>
         <td class="detailes-percent">` + package_item.input_3 + `%</td>
@@ -124,7 +124,7 @@ function addToDetailes(package_item){
         <td class="d-flex justify-content-end">
             <button class="delete-item">
                 <svg>
-                    <use xlink:href="src/svg/crecker.svg#close"/>
+                    <use xlink:href="/src/svg/crecker.svg#close"/>
                 </svg>
             </button>
         </td>

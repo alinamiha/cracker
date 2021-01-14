@@ -44,7 +44,7 @@ button, input, button:focus, input:focus{
 }
 
 .section_wrap .section_wrap_bcg {
-    background-image: url("../../src/img/section_2.png");
+    background-image: url("/src/img/section_2.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ button, input, button:focus, input:focus{
 }
 
 .first_section_bcg {
-    background-image: url("../../src/img/section_1.png");
+    background-image: url("/src/img/section_1.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ input[name="input_4"], input[name="input_4"]::-webkit-slider-thumb {
 }
 
 .cracker-bcg {
-    background-image: url("../../src/img/section_2.png");
+    background-image: url("/src/img/section_2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
